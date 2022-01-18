@@ -1,0 +1,10 @@
+.table {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr;
+    background-color: rgba(137, 211, 241, 0.288);
+}
+
+.gamer {
+    background-color: white;
+    border: solid grey 1px;
+}
