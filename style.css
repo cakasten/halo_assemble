@@ -3,7 +3,21 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3em;
+}
+
+#date {
+    font-size: 2em;
+    margin: auto;
+}
+
+a {
+
+}
+
+#title-bar {
+    display: flex;
+    align-items: center;
 }
 
 .table {
@@ -17,3 +31,10 @@ h1 {
     background-color: white;
     border: solid grey 1px;
 }
+
+ a {
+    
+}
+
+
+
