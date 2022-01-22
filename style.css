@@ -1,18 +1,16 @@
 body {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     font-size: 3em;
+    font-weight: normal;
 }
 
 #date {
     font-size: 2em;
     margin: auto;
-}
-
-a {
-
+    font-weight: normal;
 }
 
 #title-bar {
@@ -32,8 +30,13 @@ a {
     border: solid grey 1px;
 }
 
- a {
-    
+button {
+    background: #9BB3F0;
+    border: 2px solid #5281FA;
+    border-radius: 8px;
+    color: white;
+    width: 115px;
+    height: 25;
 }
 
 
