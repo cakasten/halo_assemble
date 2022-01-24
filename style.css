@@ -39,5 +39,17 @@ button {
     height: 25;
 }
 
+#gamertag {
+    display: block;
+    margin-bottom: 15px;
+}
 
+form {
+    width: 300px;
+    height: 100px;
+}
+#submit {
+margin-top: 15px;
+
+}
 
