@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#date {
+    font-size: 2em;
+    margin: auto;
+    font-weight: normal;
+}
+
+#title-bar {
+    display: flex;
+    align-items: center;
+}
+
+.table {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr;
+    background-color: #F8F9FF;
+    ;
+}
+
+.gamer {
+    background-color: white;
+    border: solid grey 1px;
+}
+
+button {
+    background: #9BB3F0;
+    border: 2px solid #5281FA;
+    border-radius: 8px;
+    color: white;
+    width: 115px;
+    height: 25;
+}
+
+#gamertag {
+    display: block;
+    margin-bottom: 15px;
+}
+
+form {
+    width: 300px;
+    height: 100px;
+}
+#submit {
+margin-top: 15px;
+
+}
+
