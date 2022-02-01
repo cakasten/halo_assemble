@@ -11,8 +11,10 @@ h1 {
 
 #date {
     font-size: 2em;
-    margin: auto;
     font-weight: normal;
+    display: flex;
+    align-items: center;
+
 }
 
 #title-bar {
@@ -20,11 +22,8 @@ h1 {
     align-items: center;
 }
 
-.table {
-    display: grid;
-    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr;
-    background-color: #F8F9FF;
-    ;
+#eventDate {
+    background: #F9FCFD;
 }
 
 .gamer {
@@ -64,10 +63,7 @@ table {
 }
 
 thead {
-    background: #F9FCFD;
-}
-
-th {
     border-left: 2px solid #E5E5E5;
     border: 2px solid #E5E5E5;
+    background: #F9FCFD;
 }
