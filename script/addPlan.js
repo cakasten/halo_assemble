@@ -1,5 +1,4 @@
 
-
 for (let i = 0; i < 24; i++) {
     let sel = document.getElementById('startTime')
     let optionTime = document.createElement('option');
@@ -16,6 +15,7 @@ for (let i = 0; i < 24; i++) {
     sel.add(optionTime);
 
 }
+
 for (let i = 0; i < 24; i++) {
     let sel = document.getElementById('endTime')
     let optionTime = document.createElement('option');
@@ -32,3 +32,4 @@ for (let i = 0; i < 24; i++) {
     sel.add(optionTime);
 
 }
+
