@@ -13,13 +13,18 @@ main {
 
 #title-bar {
     height: 100px;
-    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    
 }
 
 #date {
     font-size: 2em;
     font-weight: normal;
-    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+
 }
 
 button {
@@ -28,7 +33,7 @@ button {
     border-radius: 8px;
     color: white;
     width: 200px;
-    height: 50;
+    height: 50px;
 }
 
 table {
@@ -38,6 +43,7 @@ table {
     border: 2px solid #E5E5E5;
     border-radius: 8px 8px 0px 0px;
     margin: auto;
+    max-width: 1500px;
 }
 
 thead {
@@ -47,3 +53,15 @@ thead {
 tbody th {
     border-right: 2px solid #E5E5E5;
 }
+
+#eventDate {
+    height: 600px;
+    align-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+    button {
+        width: 100px;
+    }
+}
+

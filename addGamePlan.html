@@ -13,16 +13,16 @@
     <h1>Add Your Game Plan</h1>
 
     <main>
-        <form>
+        <form action='/plans' method="post">
             <select name="gamertag" id="gamertag">
-                <option value="default">Choose Your Gamertag</option>
+                <option value="">Choose Your Gamertag</option>
                 <option value="libidoUncle">Libido Uncle</option>
                 <option value="libidoBunny">Libido Bunny</option>
                 <option value="saddestBoy">The Saddest Boy</option>
                 <option value="cuddyWhite">Cuddy White</option>
                 <option value="sunburnedCuddy">Sunburned Cuddy</option>
             </select>
-
+            <br>
             <select name="startTime" id="startTime">
                 <option value="default">Start Time</option>
             </select>
@@ -30,8 +30,11 @@
             <select name="endTime" id="endTime">
                 <option value="default">End Time</option>
             </select>
-
-            <button type="submit" id="submit" onclick="checkTimes">Submit</button>
+            <br>
+            <button 
+            type="submit" 
+            id="submit" >
+            Submit</button>
         </form>
     </main>
 
